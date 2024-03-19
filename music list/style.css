@@ -1,0 +1,103 @@
+
+body{
+    background-color: rgb(4, 22, 37);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+   font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   height: 65px;
+   background-color: rgb(2, 2, 2);
+   color: white;
+}
+nav ul li{
+    padding: 0 120px;
+}
+.secheading{
+    font-size: large;
+    color: aliceblue;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 240px;
+    font-size: 40px;
+}
+.secimage{
+    background-image: url(bg4.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: rgb(245, 245, 245);
+    font-family: 'varela Round','sans-serif';
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 23px auto;
+    background-image: url('bg3.jpg');
+
+    
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: rgb(253, 253, 253);
+
+    color: black;
+    margin:12px 0;
+    justify-content: space space-between;
+    align-items: center;
+    border-radius: 25px;
+    text-align: center;
+    
+    
+
+}
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    display: inline-block;
+    margin-top: 15px;
+    
+    
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #0aac32;
+    color: #fff;
+}
+
+
+
+.songItem img{
+ width: 43px;
+ margin: 0 23px;
+ border-radius: 34px;
+}
+ 
